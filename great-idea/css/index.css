@@ -171,5 +171,17 @@ footer{
     text-align: center;
     padding: 50px 0;
 }
+/*  responsive   */
+@media screen and (max-width: 991px) and (min-width: 768px){
+    header, section, footer{
+        width: 90%;
+    }
+    .flex .flex1{
+        width: 100%;
+    }
+    .more-info .info{
+        width: 100%;
+    }
+}
 
 
